@@ -1,7 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: Roboto;
+    font-family: Roboto,sans-serif;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -11,12 +13,14 @@ body{
     background-color: #1F2937;
     font-size: 24px;
     color: #F9FAF8;
-    align-content: center;
-    padding:0 18px;
+    align-items: center;
+    padding:18px ;
 }
 
 
-
+.header.head{
+    font-size: 20px;
+}
 ul{
     list-style-type: none;
     display: flex;
@@ -35,14 +39,15 @@ ul{
     display: flex;
     justify-content: space-around;
     background-color: #1F2937;
+    gap: 10px;
     font-size: 24px;
     color: #F9FAF8;
     align-items: center;
-    padding: 0 20px 30px ;
+    padding: 0 20px  ;
 }
 .whimimg{
-    height: 250px;
-    width: 500px;
+    height: 220px;
+    width: 400px;
     box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
 
 }
@@ -57,14 +62,70 @@ ul{
 }
 
 .phrase1{
-    font-size: 48px;
-    font-weight: 700;
+    font-size: 44px;
+    font-weight: 500;
 }
 
-.container{
+.item1 .container{
+    max-width: 501px;
     display: flex;
     flex-direction: column;
     gap: 15px;
     align-items: flex-start;
 
+}
+.item2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item2 .subheader{
+
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.item2 .imgholder {
+    display:flex;
+    text-align: center;
+}
+
+.item2 .imgholder img{
+    height:150px;
+    width: auto;
+    display: inline-block;
+    box-shadow: 0 12px 12px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+}
+
+.item2 .imgholder div{
+    flex: 1;
+}
+
+.item3{
+    background-color: #E5E7Eb;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item3 .quote{
+ 
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0 100px;
+}
+
+.item3 .quoteAuth{
+    color: #1F2937;
+    font-size: 26px;
+    font-weight: 900;
+    margin-left: auto;
+    padding-right:180px ;
 }
