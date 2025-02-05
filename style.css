@@ -4,17 +4,17 @@ body{
     font-family: Roboto,sans-serif;
     display: flex;
     flex-direction: column;
-
+    box-sizing: border-box;
 }
 
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1F2937;
     font-size: 24px;
     color: #F9FAF8;
     align-items: center;
-    padding:18px ;
+    padding: 18px 150px; 
 }
 .header ul li a{
 text-decoration: none;
@@ -23,6 +23,7 @@ color: #F9FAF8;
 
 .header.head{
     font-size: 20px;
+    margin-left: 0;
 }
 .header ul{
     list-style-type: none;
@@ -80,6 +81,11 @@ color: #F9FAF8;
     font-weight: 500;
 }
 
+.item1 .container .phrase2{
+    font-size: 22px;
+    font-weight: 350;
+    color:#b6b6b6;
+}
 
 .item2{
     display: flex;
