@@ -150,7 +150,7 @@ color: #F9FAF8;
 
 .item4{
     min-height: 20vh;
-    margin: 80px 240px;
+    margin: 80px 240px ;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -179,4 +179,13 @@ color: #F9FAF8;
     height: 30px;
     font-weight: 600;
 
+}
+
+.footer{
+    min-height: 10vh;
+    background-color: #1F2937;
+    color: #b6b6b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
