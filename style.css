@@ -9,19 +9,22 @@ body{
 
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #1F2937;
     font-size: 24px;
     color: #F9FAF8;
     align-items: center;
     padding:18px ;
 }
-
+.header ul li a{
+text-decoration: none;
+color: #F9FAF8;
+}
 
 .header.head{
     font-size: 20px;
 }
-ul{
+.header ul{
     list-style-type: none;
     display: flex;
     gap: 16px;
@@ -43,29 +46,15 @@ ul{
     font-size: 24px;
     color: #F9FAF8;
     align-items: center;
-    padding: 0 20px  ;
+    padding: 50px 20px  ;
+    
 }
-.whimimg{
+.item1 .image .whimimg{
     height: 220px;
-    width: 400px;
-    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+    width: 450px;
+    box-shadow: 0 4px 12px #ffffff4d;
 
 }
-
-.b1{
-    background-color: #3882f6;
-    color: #F9FAF8;
-    border-radius: 12px;
-    border: none;
-    height: 25px;
-    width: auto;
-}
-
-.phrase1{
-    font-size: 44px;
-    font-weight: 500;
-}
-
 .item1 .container{
     max-width: 501px;
     display: flex;
@@ -74,6 +63,24 @@ ul{
     align-items: flex-start;
 
 }
+.item1 .container .b1{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 12px;
+    border: 2px solid black;
+    height: 40px;
+    width: 140px;
+    box-shadow: 0 4px 12px #ffffff4d;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.item1 .container .phrase1{
+    font-size: 44px;
+    font-weight: 500;
+}
+
+
 .item2{
     display: flex;
     flex-direction: column;
@@ -91,11 +98,14 @@ ul{
 .item2 .imgholder {
     display:flex;
     text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    
 }
 
 .item2 .imgholder img{
     height:150px;
-    width: auto;
+    width: 220px;
     display: inline-block;
     box-shadow: 0 12px 12px rgba(0, 0, 0, 0.3);
     margin-bottom: 10px;
@@ -118,8 +128,9 @@ ul{
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
-    margin: 0 100px;
+    font-weight: 300;
+    margin: 0 auto;
+    max-width: 80%;
 }
 
 .item3 .quoteAuth{
@@ -127,5 +138,39 @@ ul{
     font-size: 26px;
     font-weight: 900;
     margin-left: auto;
-    padding-right:180px ;
+    padding-right:160px ;
+    
+}
+
+.item4{
+    min-height: 20vh;
+    margin: 80px 240px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.item4 .dialog .d1{
+ font-size: 20px;
+ font-weight: 700;
+}
+
+.item4 .dialog .d2{
+    font-weight: 300;
+}
+
+.item4 .b2{
+    border:3px #F9FAF8 solid ;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    width: 110px;
+    height: 30px;
+    font-weight: 600;
+
 }
