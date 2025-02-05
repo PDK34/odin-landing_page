@@ -1,4 +1,4 @@
-# odin-landing_page
+# Odin-landing page
 
 Design webpage from a given design
 
