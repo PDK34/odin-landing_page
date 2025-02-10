@@ -10,7 +10,7 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
+    background-color: #1f2937;
     font-size: 24px;
     color: #F9FAF8;
     align-items: center;
@@ -19,8 +19,16 @@ body{
 .header ul li a{
 text-decoration: none;
 color: #F9FAF8;
+transition: color 0.3s ease, background-color 0.3s ease;
 }
 
+.header ul li a:hover {
+    color: #3882f6; 
+    background-color: rgba(213, 211, 211, 0.1); 
+    outline: 2px solid rgba(75, 72, 72, 0.2); 
+     border-radius: 3px; 
+     padding: 3px;
+}
 .header.head{
     font-size: 20px;
     margin-left: 0;
